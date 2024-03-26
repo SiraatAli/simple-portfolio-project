@@ -1,0 +1,32 @@
+table,tr,td,th {
+    background-color:#f0f0f0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+thead th {
+    background-color: aqua;
+}
+a {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.container {
+display: flex;
+justify-content: space-between;
+}
+.content {
+width: 49%;
+border: 1px solid black;
+padding: 10px;
+}
+video {
+width: 50%;
+}
+.content p {
+text-align: justify;
+font-size: 25px;
+font-family: Tahoma;
+letter-spacing: 1px;
+}
