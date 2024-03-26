@@ -3,9 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table,tr,td,th {
+            background-color:#f0f0f0;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            font-weight: bold;
+        }
+        thead th {
+            background-color: aqua;
+        }
+        a {
+            font-family: Tahoma;
+            font-size: 20px;
+        }
+        .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .content {
+        width: 49%;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    video {
+        width: 100%;
+    }
+    .content p {
+        text-align: justify;
+        font-size: 25px;
+        font-family: Tahoma;
+        letter-spacing: 1px;
+    }
+    </style>
 </head>
+<br>
 <body>
-    <p>This is a paragraph</p>
+    <header>
+        <a href="./index.html"><b>Home</b></a>                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./Project/project-page.html"><b>Project Page</b></a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./Skill/skill-page.html"><b>Skill Page</b></a>       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./Contact/contact-page.html"><b>Contact Page</b></a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#about"><b>About</b></a>
+    </header>
+    <hr>
+    <br>
+    <img src="./images/IMG-20210312-WA0106.jpg" alt="My Image" title="My Image" width="100">
+
+    <div>
+        <span><h2 style="display:inline-block; margin-left: 10px;">SIRAAT ALI</h2> <i class="fa fa-volume-up" onclick="document.getElementById('audio_player').play()"></i></span>
+        <span><audio id="audio_player" src="./images/ElevenLabs_2024-03-24T18_07_31_Daniel.mp3" controls hidden></audio></span>
+        </div>
+
+    <blockquote> <b>
+        <p >Forth-semester student at ISlamia  University 🎓
+        </b></p>
+    </blockquote>
+    
+    <h2>My Contact Information:</h2> 
+    
+    <div>
+        <h3>My Email:</h3>
+        <img src="./images/gmail.png" alt="email-img" width="50px" title="Contact Us"> <br>
+        <a href="siraatali40@gmail.com">siraatali40@gmail</a>
+        
+    </div>
+    <br>
+    <br>
+
+    <table width="100%">
+        <thead>
+            <tr>
+                <th colspan="5" style="background-color: gray; font-size: 25px;">Education Table</th>
+            </tr>
+            <tr>
+                <th>Degree</th>
+                <th>Institute</th>
+                <th>Obtain Marks</th>
+                <th>Total Marks</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FSC</td>
+                <td>ICMS college system</td>
+                <td>863</td>
+                <td>1100</td>
+                <td>A</td>
+            </tr>
+            
+            <tr>
+                <td>NETWORKING</td>
+                <td>CORVIT PESHAWAR</td>
+                <td>500</td>
+                <td>800</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Remarks</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+   <video src="./assets/pexels-mikhail-nilov-7989854 (1080p).mp4" controls>muted poster="./assets/ocean poster.jpg"</video>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div style="text-decoration: none; color: white;">
+            <a href="./index.html"><b>Home</b></a>                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./Project/project-page.html"><b>Project Page</b></a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./Skill/skill-page.html"><b>Skill Page</b></a>       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./Contact/contact-page.html"><b>Contact Page</b></a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#about"><b>About</b></a>
+        </div>
+    </footer>
 </body>
-</html>
+</html>  
